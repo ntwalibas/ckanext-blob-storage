@@ -2,6 +2,8 @@
 from setuptools import setup, find_packages  # Always prefer setuptools over distutils
 from codecs import open  # To use a consistent encoding
 from os import path
+import io
+import re
 
 # Extract version
 HERE = os.path.abspath(os.path.dirname(__file__))
